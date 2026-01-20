@@ -32,7 +32,6 @@ class TestAssistant:
         Returns:
             Generated pytest test code
         """
-        # This is where YOUR testing expertise goes
         prompt = f"""Generate pytest tests for this API endpoint:
 
 {endpoint_description}
